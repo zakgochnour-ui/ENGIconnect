@@ -1,0 +1,375 @@
+/*page1*/
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(to right, #6dd3ff, #9a63ff);
+}
+
+.nav-logo {
+    width: 60px;
+}
+
+.nav-links {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    margin: 0 20px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav-search {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 8px 15px;
+    border-radius: 30px;
+}
+
+.nav-search input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 200px;
+}
+
+.close-icon {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.nav-menu {
+    margin-left: 20px;
+    width: 40px;
+}
+
+
+.cards-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+}
+
+.card {
+    width: 280px;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.info-icon {
+    width: 30px;
+}
+
+.card h2 {
+    margin-top: 10px;
+}
+
+.card p {
+    color: #444;
+    font-size: 15px;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #c399ff;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+.center-card {
+    text-align: center;
+}
+
+.microsoft-logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.salary {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.provided {
+    font-size: 14px;
+    color: gray;
+}
+
+
+
+
+
+
+
+
+/*page2*/
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fcfafa;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50x;
+    background: linear-gradient(to right, #6dd3ff, #8a5cff);
+    color: rgb(255, 255, 255);
+}
+
+.nav-logo {
+    width: 60px;
+}
+
+.nav-links a {
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.nav-search input {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: none;
+    width: 250px;
+}
+
+.nav-menu {
+    width: 35px;
+}
+
+
+
+.container {
+    display: flex;
+    height: calc(100vh - 90px); /* subtract navbar height */
+}
+
+
+
+.sidebar {
+    width: 300px;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+}
+
+.chat-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.chat-item:hover {
+    background: #f3f3f3;
+    border-radius: 10px;
+}
+
+.chat-icon {
+    width: 40px;
+    margin-right: 12px;
+}
+
+.chat-name {
+    font-weight: bold;
+}
+
+.chat-status {
+    font-size: 12px;
+    color: gray;
+}
+
+.chat-status.new {
+    color: blue;
+}
+
+
+
+.chat-area {
+    flex: 1;
+    position: relative;
+    padding: 20px;
+}
+
+.chat-header {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.chat-header-icon {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.chat-header-info {
+    font-size: 18px;
+    margin-right: auto;
+}
+
+.chat-actions img {
+    width: 40px;
+    margin-left: 20px;
+}
+
+
+.message-row {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.msg-icon {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.message-bubble {
+    background: #e0e0e0;
+    padding: 12px 18px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+
+.chat-input {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+}
+
+.chat-input input {
+    flex: 1;
+    border: none;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.chat-input input:focus {
+    outline: none;
+}
+
+.upload-icon,
+.close-icon {
+    width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/*page3*/
+
+
+
+.top-nav {
+    background: linear-gradient(90deg, #7ecbff, #b388ff);
+    display: flex;
+    align-items: center;
+    padding: 15px 25px;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 60px;
+}
+
+.navbar-links a {
+    margin: 0 20px;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.navbar-links .active {
+    text-decoration: underline;
+}
+
+.search-bar {
+    background: white;
+    border-radius: 30px;
+    padding: 8px 18px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.close-search {
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 45px;
+    cursor: pointer;
+}
+
